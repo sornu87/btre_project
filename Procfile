@@ -1,1 +1,1 @@
-web: gunicorn btre001.wsgi
+web: gunicorn btre.wsgi
