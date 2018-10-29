@@ -1,1 +1,1 @@
- web: gunicorn btre_project.btre.settings --log-file -
+ web: gunicorn btre.settings.wsgi --log-file -
