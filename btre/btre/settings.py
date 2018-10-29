@@ -1,3 +1,6 @@
+import django_heroku
+
+
 """
 Django settings for btre project.
 
@@ -142,3 +145,5 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
+django_heroku.settings(locals())
